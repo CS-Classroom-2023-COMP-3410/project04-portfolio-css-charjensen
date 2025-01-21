@@ -1,0 +1,67 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    border-radius: 5px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+  
+  /* Contact Form Styling */
+  form {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  form .form-label {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+  }
+  
+  form .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.875rem;
+  }
+  

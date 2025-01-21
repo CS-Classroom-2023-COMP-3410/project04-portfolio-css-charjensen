@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Favorite Games - Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A photo of me." />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link href="stylesindex.css" rel="stylesheet" />
+    <title>Portfolio Page</title>
+  </head>
+  <body class="bg-light">
+    <!-- Header -->
+    <header class="bg-dark text-white py-4 mb-4">
+      <div class="container text-center">
+        <h1 class="mb-3">Charles Jensen</h1>
+        <img
+          src="images/index/CJ.png"
+          alt="Gaming banner showcasing favorite games"
+          class="img-fluid profile-banner"
+        />
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">My Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games/game1.html">Game 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games/game2.html">Game 2</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Favorite Games Section -->
+      <section class="mb-4">
+        <h2 class="text-center">My Favorite Games of All Time</h2>
+        <p class="text-center description">
+          Explore the games that have inspired and entertained me throughout the
+          years.
+        </p>
+        <ul class="list-group list-group-flush favorite-games-list">
+          <li class="list-group-item"><a href="games/game1.html">Game 1</a></li>
+          <li class="list-group-item"><a href="games/game2.html">Game 2</a></li>
+        </ul>
+      </section>
+
+      <!-- Quick Links Section -->
+      <section class="mb-4">
+        <h2 class="text-center">Quick Links</h2>
+        <p class="text-center">
+          Check out some of my favorite gaming websites:
+        </p>
+        <ul class="list-group list-group-flush quick-links">
+          <li class="list-group-item">
+            <a href="https://store.steampowered.com" target="_blank">Steam</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://www.gog.com" target="_blank">GOG</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://www.hltv.org" target="_blank">HLTV</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Game Preferences Table -->
+      <section class="mb-4">
+        <h2 class="text-center">Game Preferences</h2>
+        <p class="text-center">
+          Below is a table showcasing my favorite genres and games within those
+          genres:
+        </p>
+        <div class="table-responsive">
+          <table class="table table-bordered game-preferences-table">
+            <thead class="table-dark">
+              <tr>
+                <th>Genre</th>
+                <th>Favorite Game</th>
+                <th>Why I Love It</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FPS</td>
+                <td>Counter-Strike 2</td>
+                <td>Fun competitive shooter.</td>
+              </tr>
+              <tr>
+                <td>Psychological Horror</td>
+                <td>Silent Hill 2</td>
+                <td>Immersive story and subtle horror.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 My Favorite Games Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

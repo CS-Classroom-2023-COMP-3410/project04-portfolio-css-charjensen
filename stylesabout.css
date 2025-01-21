@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .profile-banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    border-radius: 5px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+  
+  /* Favorite Games Section */
+  .favorite-games-list .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    transition: background-color 0.3s;
+  }
+  
+  .favorite-games-list .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Quick Links Section */
+  .quick-links .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    transition: background-color 0.3s;
+  }
+  
+  .quick-links .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Game Preferences Table */
+  .game-preferences-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .game-preferences-table th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+  }
+  
+  .game-preferences-table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.875rem;
+  }
+  
